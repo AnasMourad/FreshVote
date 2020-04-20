@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan("com.training.domain")
+@ComponentScan({"com.training.controllers", "com.training.security"})
 public class DemoApplication {
 
 	public static void main(String[] args) {
